@@ -16,4 +16,11 @@ public class Book {
     private String bookName;
     private String isbn;
     private String authorName;
+
+    public Book(int id, String bookName, String isbn, String authorName) {
+        this.id = id;
+        this.bookName = bookName;
+        this.isbn = isbn;
+        this.authorName = authorName;
+    }
 }
